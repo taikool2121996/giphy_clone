@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Futura-Book';
+  src: url('../../public/assets/fonts/Futura-Book.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@import 'bootstrap/dist/css/bootstrap.css';
+@import './font-awesome/css/font-awesome.min.css';
+
+:root {
+  --bs-body-font-family: 'Futura-Book';
+  min-height: 100vh;
+  font-size: 1.2rem;
+  ::-webkit-scrollbar{
+      width: 7px;
+  }
+  ::-webkit-scrollbar-track{
+      background: #252525;
+  }
+  ::-webkit-scrollbar-thumb{
+      background: linear-gradient(#9933ff, #00e6cc);
+      border-radius: 1rem;
+  }
+}

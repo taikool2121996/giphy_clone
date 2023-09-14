@@ -6,6 +6,7 @@ export const GifItemWrapper = styled.div`
     img {
       width: 100%;
       border-radius: 5px;
+      cursor: pointer;
     }
     .love {
       position: absolute;

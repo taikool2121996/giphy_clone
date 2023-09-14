@@ -30,7 +30,7 @@ const Trending: FC<GifItemProps> = ({ gifItem, loading }) => {
       ) : (
         <div
           className="gif"
-          onDoubleClick={() => {
+          onClick={() => {
             setModal(true);
           }}
         >
